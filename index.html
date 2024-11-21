@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="turn-indicator">
+            <p>Turno de: <span id="current-player">-</span></p>
+        </div>
+        <div class="tic-tac-toe-grid">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <button id="game-button" type="button" class="btn btn-primary btn-lg btn-block">Empezar</button>
+    </div>
+
+    <div id="custom-alert" class="custom-alert hidden">
+        <div class="custom-alert-content">
+            <p id="custom-alert-message"></p>
+            <button id="custom-alert-button" class="btn">Cerrar</button>
+        </div>
+    </div>
+</body>
+</html>
